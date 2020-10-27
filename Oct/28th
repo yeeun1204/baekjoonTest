@@ -1,0 +1,59 @@
+package kh.project1.test1;
+
+public class DataTypeTest {
+
+	public static void main(String[] args) {
+		System.out.println((double)0b01000001); //0b = 2진수
+		System.out.println((char)0b01000001); //0b = 2진수
+		System.out.println(0b01000001); //0b = 2진수
+		
+		System.out.println( );
+		System.out.println(100); //데이터 형태 보고 정수로 판단 = 기본을 int형 됨
+		System.out.println((int)3.4); //int형으로 캐스팅이 되면 소수점뒤로 사라진다. 올림내림도 없음 
+		System.out.println('A');
+		System.out.println((int)'A'); //정수로 표현
+		
+		System.out.println( );
+		System.out.println(5.6);
+		System.out.println(20);
+		System.out.println((double)20);
+		System.out.println('C');
+		System.out.println((double)'C');
+		
+		System.out.println();
+		System.out.println('J');
+		System.out.println(100);
+		System.out.println((char)100);
+		System.out.println(65.5);
+		System.out.println((char)65.6); //실수 -> 단일문자로 바꿀 때 소수점 뒷자리 버림
+		
+//C0AC B791 D574
+		System.out.println((char)0xC724);
+		System.out.println((char)0xBBF8);
+		System.out.println((char)0xB9BC);
+		System.out.println((char)0xBC14);
+		System.out.println((char)0xBCF4);
+
+		
+		System.out.println("\n\n\n");
+		System.out.println("Hello");
+		
+		System.out.println(true); //boolean
+		System.out.println(false);
+		
+		//자료형 크기 알오오기(bit단위) 자료형.SIZE String,Boolean 제외 
+		//int = Integer , char = Character, double = Double, float = Float 
+		System.out.println(Byte.SIZE);
+		System.out.println(Short.SIZE);
+		System.out.println(Integer.SIZE);
+		System.out.println(Long.SIZE);
+		System.out.println(Float.SIZE);
+		System.out.println(Double.SIZE);
+		System.out.println(Character.SIZE);
+		
+		
+	
+		
+	}
+
+}
