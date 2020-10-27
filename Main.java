@@ -19,6 +19,6 @@ public class Main
 			}
 			System.out.println( );
 		}
-		System.out.println("깃허브 수정 테스트 중 이다");
+		
 	}
 }
