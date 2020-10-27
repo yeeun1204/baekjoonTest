@@ -1,0 +1,118 @@
+package kh.project1.test1;
+
+import java.util.Scanner;
+
+public class LoopTest1 {
+
+	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+
+//		System.out.println("정수 입력 : ");
+//		int num = sc.nextInt();
+//		
+//		int sum = 0, i = 0;
+//		
+//		
+//		while(i < num+1) {
+//			sum += i;
+//			i++;
+//		}
+//		System.out.println("합계 : "+ sum);
+		
+//		System.out.println("정수 입력 : ");
+//		int num = sc.nextInt();
+//		
+//		int sum = 0;
+//		
+//		
+//		while(num >= 0) {
+//			sum += num;
+//			
+//			num--;
+//		}
+//		System.out.println("합계 : "+ sum);
+		
+//		System.out.println("정수 입력 : ");
+//		int num = sc.nextInt();
+//		
+//		int sum = 0;
+//		
+//		
+//		while(num >= 0) {
+//			if(num % 2 == 0) {
+//				sum += num;
+//			}					
+//			num--;
+//		}
+//		System.out.println("합계 : "+ sum);
+		
+//		System.out.print("몇 단 출력하시겠습니까?");
+//		int dan = sc.nextInt();
+//		
+//		int hang = 1;
+//		while(hang <= 9) {			
+//			System.out.println(dan+" x "+hang+" = "+(hang*dan));
+//			System.out.printf("%d x %d = %d \n", dan,hang,dan*hang);
+//			hang++;
+		//}
+		
+//		int i = 1;
+//		int num = 0;
+//		
+//		do{
+//			System.out.println("정수 입력(종료) : ");
+//			num = sc.nextInt();
+//			System.out.println("입력 값: "+ num);
+//		}
+//		while(num != 0); //0이기 전까진
+	
+//		for(int i = 1; i <= 10; i++) {
+//			//초기식;            ;증감식 생략 가능
+//			//다 생략할 시 == while(true)
+//			System.out.println("출력"+i);
+//		}
+//		
+//		//2개 이상 
+//		for(int i = 1,j = 10; i <= 10; i++,j--) {
+//			//초기식;            ;증감식 생략 가능
+//			//다 생략할 시 == while(true)
+//			System.out.println("출력"+i);
+		//}
+		
+//		System.out.print("반복할 횟수 : ");
+//		int count = sc.nextInt();
+//		
+//		for(int i=1; i<=count; i++) {
+//			System.out.println(i+"번째 반복");
+//		}
+//		for(int i=0; i<10; i++) {
+//			System.out.println("##외부 반복문##"+i);
+//			for(int j=0; j<10; j++) {
+//				System.out.println("외부"+i+"에 대한 내부 반복문"+j);
+//			}
+//			
+//		}
+		
+		for(int dan=2;dan<=9;dan++) {
+			for(int hang=1;hang<=9;hang++) {
+				System.out.printf("%d x %d = %d \n",dan,hang,dan*hang);
+			}
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
